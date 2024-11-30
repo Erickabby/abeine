@@ -1,0 +1,288 @@
+/* General Body Styles */
+Body {
+    Font-family: ‘Helvetica, Arial, sans-serif’;
+    Background-color: #f0f0f0;
+    Margin: 0;
+    Padding: 0;
+}
+
+/* Header */
+Header {
+    Background-color: #333;
+    Color: #fff;
+    Padding: 20px;
+    Text-align: center;
+}
+
+/* Navigation Bar */
+Nav {
+    Background-color: #444;
+    Overflow: hidden;
+}
+
+Nav ul {
+    List-style-type: none;
+    Padding: 0;
+    Margin: 0;
+}
+
+Nav ul li {
+    Float: left;
+}
+
+Nav ul li a {
+    Display: block;
+    Color: white;
+    Text-align: center;
+    Padding: 14px 16px;
+    Text-decoration: none;
+}
+
+Nav ul li a:hover {
+    Background-color: #555;
+}
+
+/* Footer */
+Footer {
+    Background-color: #333;
+    Color: white;
+    Text-align: center;
+    Padding: 10px;
+    Position: fixed;
+    Bottom: 0;
+    Width: 100%;
+}
+
+/* Main Content Area */
+Main {
+    Padding: 20px;
+}
+
+/* Article Card */
+Article {
+    Background-color: #fff;
+    Padding: 20px;
+    Margin-bottom: 20px;
+    Box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+Button {
+    Background-color: #007BFF;
+    Color: white;
+    Padding: 10px 20px;
+    Border: none;
+    Border-radius: 5px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background-color: #0056b3;
+}
+
+/* Form Styles */
+Form {
+    Max-width: 600px;
+    Margin: auto;
+    Background: #fff;
+    Padding: 20px;
+    Border-radius: 5px;
+    Box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+Form input, form textarea {
+    Width: 100%;
+    Padding: 10px;
+    Margin: 10px 0;
+    Border: 1px solid #ccc;
+    Border-radius: 5px;
+}
+
+Form input[type=”submit”] {
+    Background-color: #007BFF;
+    Color: white;
+    Border: none;
+    Cursor: pointer;
+}
+
+Form input[type=”submit”]:hover {
+    Background-color: #0056b3;
+}
+
+/* Image Styling */
+Img {
+    Max-width: 100%;
+    Height: auto;
+    Border-radius: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    Width: 250px;
+    Background-color: #f4f4f4;
+    Padding: 15px;
+    Position: fixed;
+    Height: 100%;
+    Overflow: auto;
+}
+
+/* Table Styles */
+Table {
+    Width: 100%;
+    Border-collapse: collapse;
+    Margin: 20px 0;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+Table th, table td {
+    Padding: 10px;
+    Border: 1px solid #ddd;
+    Text-align: left;
+}
+
+Table th {
+    Background-color: #f2f2f2;
+}
+
+/* Card Layout */
+.card {
+    Background: white;
+    Padding: 20px;
+    Margin: 20px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    Border-radius: 10px;
+}
+
+/* Highlighted Text */
+.highlight {
+    Background-color: yellow;
+    Font-weight: bold;
+}
+
+/* Responsive Grid */
+.grid-container {
+    Display: grid;
+    Grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    Gap: 10px;
+}
+
+/* Progress Bar */
+.progress-bar {
+    Width: 100%;
+    Background-color: #f3f3f3;
+    Border-radius: 5px;
+    Overflow: hidden;
+}
+
+.progress-bar div {
+    Width: 70%;
+    Height: 20px;
+    Background-color: #4caf50;
+    Text-align: center;
+    Line-height: 20px;
+    Color: white;
+}
+
+/* Tooltip */
+.tooltip {
+    Position: relative;
+    Display: inline-block;
+}
+
+
+.tooltip:hover .tooltiptext {
+    Visibility: visible;
+    Opacity: 1;
+}
+
+/* Notification Alert */
+.alert {
+    Padding: 20px;
+    Background-color: #f44336; /* Red */
+    Color: white;
+    Margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    Margin-left: 15px;
+    Color: white;
+    Font-weight: bold;
+    Float: right;
+    Font-size: 22px;
+    Line-height: 20px;
+    Cursor: pointer;
+    Transition: 0.3s;
+}
+
+.closebtn:hover {
+    Color: black;
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    List-style: none;
+    Display: flex;
+    Flex-wrap: wrap;
+    Padding: 0;
+    Margin: 0 0 1rem 0;
+}
+
+.breadcrumb li {
+    Margin: 0 0.5rem;
+}
+
+.breadcrumb a {
+    Color: #007BFF;
+    Text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    Text-decoration: underline;
+}
+
+/* Modal Popup */
+.modal {
+    Display: none;
+    Position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    Background-color: #fefefe;
+    Margin: 5% auto;
+    Padding: 20px;
+    Border: 1px solid #888;
+    Width: 80%;
+}
+h1
+ {
+	 margin:left;
+	 color:red;
+ }
+
+.close:hover,
+.close:focus {
+    Color: black;
+    Text-decoration: none;
+    Cursor: pointer;
+}
+
+
+
+
+section {
+	Color:red;
+	textalign:center;
+}
